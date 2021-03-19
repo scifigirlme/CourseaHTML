@@ -5,13 +5,13 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  color: #B0E57C;
+  color: #56BAEC;
   font-size: 50px;
 }
 
-body{
-	margin: 0;
-	padding: 0;
-  font-family: Times, Times New Roman, serif;
-  background-color: #FFF0AA;
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Times, Times New Roman, serif;
+   background-color: #FFF0AA;
 }
