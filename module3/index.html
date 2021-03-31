@@ -3,75 +3,101 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Module 3</title>
 
+    <title>Module 3 Solution</title>
 </head>
 
 <body>
-    <header>
-        <nav class="nav-header" class="navbar navbar-default">
+    <header class="nav-header">
+        <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
-                <div>
-                    <div>
-                        <a href="index.html">
-                            <h1>Food, LLC</h1>
-                        </a>
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <p class="nav-brand">Food, LLC</p>
                     </div>
 
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
                 </div>
+
                 <div id="collapsable-nav" class="collapse navbar-collapse">
-                    <ul id="nav list" class="nav navbar-nav navbar-right visible-xs">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
                         <li class="text-center">
                             <a href="#chicken-div">
-                                <p class="item"></p>
+                                <p class="item">Chicken</p>
                             </a>
                             <hr class="visible-xs">
                         </li>
+                        <li class="text-center beef-item">
+                            <a href="#beef-div">
+                                <p class="item">Beef</p>
+                            </a>
+                            <hr class="visible-xs">
+                        </li>
+                        <li class="text-center sushi-item">
+                            <a href="#sushi-div">
+                                <p class="item">Sushi</p>
+                            </a>
+                        </li>
                     </ul>
-
-
-
                 </div>
-
             </div>
         </nav>
-
     </header>
 
-    <h2 class="text-center">Our Menu</h2>
+    <h1 class="text-center">Our Menu</h1>
 
     <div class="row container container-fluid">
         <div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div">
-            <section>
+            <section id="chickenSection">
                 <div id="chicken">
                     Chicken
                 </div>
-                <P>
+                <p>
                     The chicken is the world’s most numerous domesticated bird, with over 52 billion farmed worldwide in 2008, rivaling the dog as the most ubiquitous domestic animal globally.1,2 These birds have fascinated scholars and researchers since the dawn of Western
                     civilization, and recent studies are beginning to reveal the depths of their complexity and cognitive ability. According to Andrew F. Fraser, professor of veterinary surgery at Memorial University of Newfoundland, and Donald M. Broom,
                     professor of animal welfare at University of Cambridge: “Those who have studied the behaviour of the domestic fowl in detail…, especially those who have looked at feral fowl…, inevitably acquire much respect for the members of this
-                    species
-                </P>
+                    species.”
+                </p>
             </section>
         </div>
-
-
-
+        <div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
+            <section id="beefSection">
+                <div id="beef">
+                    Beef
+                </div>
+                <p>
+                    Beef, flesh of mature cattle, as distinguished from veal, the flesh of calves. The best beef is obtained from early maturing, special beef breeds. High-quality beef has firm, velvety, fine-grained lean, bright red in colour and well-marbled. The fat is
+                    smooth, creamy white, and well distributed. In young beef the bones are soft, porous, and red; the less desirable mature beef has hard white bones. Beef tenderness and flavour are improved by aging; in one common aging method the carcass
+                    is hung for about two weeks at approximately 36 °F (2 °C), encouraging physical changes in the muscle tissue that enhance the quality of the meat.
+                </p>
+            </section>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
+            <section id="sushiSection">
+                <div id="sushi">
+                    Sushi
+                </div>
+                <p>
+                    Originally, “sushi” was a form of preserving fish, introduced to Japan in the 8th century from Southeast Asia; this involved wrapping a piece of gutted fish in fermented rice. This allowed for fish to be stored for several months, but surprisingly, the
+                    rice was thrown away. Later, the preserved fish was eaten with rice, Japan’s staple food, and was called nare-zushi, which can still be found today. Over the years, nare-zushi evolved according to each region’s specialities; in Osaka,
+                    oshi-zushi became popular, while Shiga is still renowned for its funa-zushi from Lake Biwa.
+                </p>
+            </section>
+        </div>
     </div>
 
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-
 </body>
 
 </html>
