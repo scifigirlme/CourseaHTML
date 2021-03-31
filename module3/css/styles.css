@@ -1,41 +1,16 @@
+/* Base Styles */
+
 * {
     box-sizing: border-box;
 }
 
-body {
-    font-size: 16px;
-    background-color: #F5F5F5;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-.nav-header {
-    background-color: #F9F9F9;
-}
-
-.navbar-brand {
-    margin-left: 15px;
-}
-
-.navbar-brand {
-    font-size: 3em;
-    border: 0 0 10px 10px;
-}
-
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: chocolate;
+    font-family: Brushstroke, fantasy;
+    color: #000000;
 }
 
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightseagreen;
+body {
+    background-color: #FEF5CA;
 }
 
 p {
@@ -43,25 +18,122 @@ p {
     margin: 0;
 }
 
+.container {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
 section {
-    border: 2px darkcyan;
-    background-color: gainsboro;
+    border: 1px solid black;
     width: 100%;
     height: auto;
-    color: purple;
+    font-family: Helvetica;
+    color: black;
     position: relative;
     overflow: auto;
 }
 
 #chicken {
-    border: 2px black;
     text-align: center;
-    width: 30%;
-    margin-left: 70%;
+    font-family: Georgia, sans-serif;
     font-weight: bold;
     font-size: 125%;
     margin-bottom: 0;
     margin-top: 0;
     padding: 5px;
-    background-color: rosybrown;
+}
+
+#beef {
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+}
+
+#sushi {
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+}
+
+#chicken-div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#beef-div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#sushi-div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    border: 0 0 10px 10px;
+    color: darkslategray;
+}
+
+#header-nav {
+    border: 0;
+    background-color: lightskyblue;
+    color: darkslategray;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.nav-header {
+    background-color: darkslategray;
+}
+
+.nav-brand {
+    color: darkslategray;
+    font-size: 1.5em;
+}
+
+#nav-list {
+    color: darkslategray;
+}
+
+hr {
+    border-color: white;
+}
+
+.item {
+    color: darkslategray;
+    font-size: 1.2em;
+}
+
+#beefSection {
+    background-color: lavender;
+}
+
+#chickenSection {
+    background-color: lavender;
+}
+
+#sushiSection {
+    background-color: lavender;
 }
