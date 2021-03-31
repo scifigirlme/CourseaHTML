@@ -1,8 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-  font-size: 16px;  
-  background-color:#F5F5F5;  
+    font-size: 16px;
+    background-color: #F5F5F5;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.nav-header {
+    background-color: #F9F9F9;
 }
 
 .navbar-brand {
-  padding-top: 25px;
+    margin-left: 15px;
+}
+
+.navbar-brand {
+    font-size: 3em;
+    border: 0 0 10px 10px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightseagreen;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+}
+
+section {
+    border: 2px darkcyan;
+    background-color: gainsboro;
+    width: 100%;
+    height: auto;
+    color: purple;
+    position: relative;
+    overflow: auto;
+}
+
+#chicken {
+    border: 2px black;
+    text-align: center;
+    width: 30%;
+    margin-left: 75%;
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+    background-color: rosybrown;
 }
